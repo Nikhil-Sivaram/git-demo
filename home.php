@@ -1,7 +1,9 @@
 <?php
-// We need to use sessions, so you should always start sessions using the below code.
+// We need to use sessions, so you should always start sessions using the below code.git 
 session_start();
 // If the user is not logged in redirect to the login page...
+// If the user is not logged in redirect to the login page...
+// If the user is not logged in redirect to the login page...git 
 if (!isset($_SESSION['loggedin'])) {
 	header('Location: index.html');
 	exit;
@@ -11,7 +13,7 @@ if (!isset($_SESSION['loggedin'])) {
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Home Page push 1</title>
+		<title>Home Page Sample doc</title>
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
 	</head>
