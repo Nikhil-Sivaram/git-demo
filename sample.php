@@ -1,1 +1,1 @@
-//sample project theme for php laravel project
+//sample project theme for php laravel
